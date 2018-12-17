@@ -1,0 +1,16 @@
+.vintage {
+    border-style: outset;
+    border-width: 5px;
+    background-color: lightgray;
+    border-color: grey;
+}
+
+.vintage:active {
+    border-style: inset;
+}
+
+.vintage:disabled {
+    background-color: darkgray;
+    border-color: grey;
+    cursor: not-allowed;
+}

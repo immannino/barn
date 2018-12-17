@@ -1,0 +1,35 @@
+:root {
+    --thin: 2px 2px;
+    --regular: 5px 5px;
+    --thick: 10px 10px;
+}
+
+/* Simple Borders. 
+
+   I use these a lot. These are usually the ranges I go with.
+ */
+.b-thin-black {
+    border: 1px solid black;
+}
+
+.b-reg-black {
+    border: 3px solid black;
+}
+
+.b-thick-black {
+    border: 7px solid black;
+}
+
+/* Box Shadows. 
+
+   I use these a lot. These are usually the ranges I go with.
+ */
+.bs-thin-black {
+    box-shadow: var(--thin) black;
+}
+.bs-reg-black {
+    box-shadow: var(--regular) black;
+}
+.bs-thick-black {
+    box-shadow: var(--thick) black;
+}
