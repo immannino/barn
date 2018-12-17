@@ -18,8 +18,9 @@
  *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-@import 'https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css';
+@import './tachyons.min.css';
 @import './_buttons';
 @import './_animations';
-@import './_colors.css';
-@import './_containers.css';
+@import './_colors';
+@import './_containers';
+@import './_cursors';

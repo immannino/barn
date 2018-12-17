@@ -1,0 +1,19 @@
+.blink-black {
+    animation: blink-black 1s step-end infinite;
+}
+  
+@keyframes blink-black {
+    50% {
+      color: black;
+    }
+}
+
+.blink-white {
+    animation: blink-white 1s step-end infinite;
+}
+  
+@keyframes blink-white {
+    50% {
+      color: white;
+    }
+}
